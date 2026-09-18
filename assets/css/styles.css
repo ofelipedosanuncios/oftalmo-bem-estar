@@ -305,6 +305,10 @@ section{position:relative}
 .laser-item .svc-col-ic svg{color:var(--teal-700)}
 .laser-item h4{font-size:1.08rem;color:var(--teal-deep);margin:0 0 8px}
 .laser-item p{color:var(--ink-soft);font-size:1rem;margin:0;line-height:1.55}
+/* Painel — Exames de imagem (variante branca, itens em teal-light) */
+.svc-exams{background:var(--white);border-color:var(--teal-100);box-shadow:var(--shadow-sm)}
+.svc-exams .laser-item{background:var(--teal-light);border-color:var(--teal-100);box-shadow:none}
+.svc-exams .laser-item .svc-col-ic{background:var(--white)}
 
 /* Linha de cards */
 .svc-row{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
