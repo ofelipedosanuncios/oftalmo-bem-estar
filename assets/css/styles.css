@@ -375,6 +375,7 @@ section{position:relative}
 .doc-body ul li svg{width:16px;height:16px;color:var(--teal);flex:none;margin-top:4px}
 .doc.pending .doc-crm{color:var(--ink-soft);font-style:italic;font-weight:600}
 .doc.pending ul li{font-style:italic;color:#6f8a8f}
+.doc-crm.pending{color:var(--ink-soft);font-style:italic;font-weight:600}
 @media(max-width:1180px){.team-grid{grid-template-columns:repeat(2,1fr);gap:24px}}
 @media(max-width:860px){.team-grid{grid-template-columns:1fr}.doc{max-width:440px;margin-inline:auto;width:100%}}
 
